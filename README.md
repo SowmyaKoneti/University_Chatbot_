@@ -13,6 +13,7 @@ This project aims to develop a chatbot to assist users with queries related to u
 - [Features](#features)
 - [Challenges Faced](#challenges-faced)
 - [Future Enhancements](#future-enhancements)
+- [License](#License)
 
 ## System Overview
 
@@ -93,5 +94,9 @@ Interact with the chatbot by typing questions related to university information.
 1. User Personalization: Implement a user profiling system to personalize responses based on the user's preferences and history.
 2. Database Integration: Explore options for integrating a database to store and retrieve dynamic information.
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).
 
 ---
+
