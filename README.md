@@ -50,7 +50,7 @@ To run the chatbot locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/university-enquiry-chatbot.git
+   git clone https://github.com/oluseyemichael/university-enquiry-chatbot.git
    ```
 
 2. Install the required dependencies:
