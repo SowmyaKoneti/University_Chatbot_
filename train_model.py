@@ -20,6 +20,18 @@ for intent in intents['intents']:
     tag = intent['tag']
     # add to tag list
     tags.append(tag)
+    if 'subcategories' in intent:
+        for subcategory in intent['subcategories']:
+            subtag = subcategory['tag']
+            tags.append(subtag)
+            for pattern in subcategory['patterns']:
+                # tokenize each word in the sentence
+                w = tokenize(pattern)
+                # add to our words list
+                all_words.extend(w)
+                # add to xy pair
+                xy.append((w, subtag))
+    
     for pattern in intent['patterns']:
         # tokenize each word in the sentence
         w = tokenize(pattern)

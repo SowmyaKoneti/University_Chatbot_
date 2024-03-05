@@ -16,7 +16,7 @@
         "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?",
-        "Hi, welcome to AJU, how can i help?"
+        "Hi, welcome to Lamar University, how can i help?"
       ]
     },
     {
@@ -55,7 +55,9 @@
         "Tell me about the school?"
       ],
       "responses": [
-        "Arrupe Jesuit University (AJU) is an autonomous international academic institution, owned by the Southern Africa Province of the Society of Jesus on the behalf of the Jesuit Conference of Africa and Madagascar (JCAM). Click here to view the <a href='https://www.aju.ac.zw/our-history/'>history of the school</a>. View our <a href='https://www.aju.ac.zw/'>Home Page here</a>"
+        "Lamar University is a public university in Beaumont, Texas.",
+        " Lamar has been a member of the Texas State University System since 1995. It was the flagship institution of the former Lamar University System. ",
+        "Click here to Visit the <a href='https://www.lamar.edu/'> web page  to understand more about the University</a>."
       ]
     },
     {
@@ -64,7 +66,7 @@
         "What is your name?"
       ],
       "responses": [
-        "My name is AJU Assistant and i'm here to help with your queries."
+        "My name is Lamar University Assistant and i'm here to help with your queries."
       ]
     },
     {
@@ -75,7 +77,144 @@
         "Where is the library?"
       ],
       "responses": [
-        "There is a library on campus that houses a vast collection of books. View more library information <a href= 'https://www.aju.ac.zw/our-library/'>here</a>."
+        "There is a library on campus that houses a vast collection of books. View more library information <a href= 'https://www.lamar.edu/library/index.html'>here</a>."
+      ]
+    },
+    {
+      "tag": "academic_calendar",
+      "patterns": [
+        "What are the important dates on the academic calendar?",
+        "When does the semester start?",
+        "What are the holiday dates?",
+        "Is there a schedule for exams?",
+        "academic calendar"
+      ],
+      "responses": [
+        "The academic calendar provides important dates such as the start of the semester, holiday dates, and exam schedules.You can view the full academic calendar <a href='https://www.lamar.edu/events/academic-calendar-listing.html'>here</a>."
+      ]
+    },
+    {
+      "tag": "BlackBoard(LU Learn)",
+      "patterns": [
+        "What is LU Learn",
+        "Contact information for lamar blackboard"
+       
+      ],
+      "responses": [
+        "LU Learn is a web application that allows faculty to provide students with course materials, class discussions, assignments and assessments online.You can log on to LU Learn and access your class materials anywhere you have an Internet connection.Contact information <a href='https://luonline.blackboard.com/'>here</a>."
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "How can i get a scholarship?",
+        "Are scholarships available?",
+        "Are there any scholarships available?",
+        "How do i apply for a scholarship",
+        "How do i get a scholarship?"
+      ],
+      "responses": [
+        "We are dedicated to helping you achieve your educational goals, and scholarships are one valuable tool to do that. Each year, LU awards more than 2,000 scholarships providing more than $10 million in assistance to students.You can check by clicking <a href='https://www.lamar.edu/financial-aid/scholarships/index.html'>here</a>"
+      ]
+    },
+    {
+      "tag": "Tech Support",
+      "patterns": [
+        "How can i get the Tech Support?",
+        "how to contact Tech Team?",
+        "IT service portal"
+       
+      ],
+      "responses": [
+        "Information technology services and support for the Lamar University community. Email, passwords, wireless access, security and more. For student and IT staff Tech Support click <a href='https://www.lamar.edu/it-services-and-support/index.html'>here</a> Refer to this  <a href='servicedesk@lamar.edu'>email</a>"
+      ]
+    },
+    {
+      "tag": "Course Evaluation",
+      "patterns": [
+        "Give details regarding university assessment?",
+        "Online Course Evaluations",
+        "Core Curriculum Assessment",
+        "Assessment Resources",
+        "National Survey of Student Engagement(NSSE)",
+        "Faculty survey of Student Engagement(FSSE)",
+        "University Institutional Effectiveness Committee(UIEC)"
+      ],
+      "responses": [
+        "Lamar University uses SmartEvals, an online course evaluation software, which provides colleges and universities with instructor and course evaluations.You can check by clicking <a href='https://www.lamar.edu/planning-assessment/assessment/index.html'>here</a> "
+      ]
+    },
+    {
+      "tag": "LU Hub",
+      "patterns": [
+        "What is LU Hub",
+        "LU Hub for Advisors",
+        "Learning Hub details?"
+      ],
+      "responses": [
+        "The campus engagement platform for LU Hub - Powered by CampusGroups.You can login by clicking <a href='https://luhub.lamar.edu/home_login'>here</a>"
+      ]
+    },
+    {
+      "tag": "Cost and Aid",
+      "patterns": [
+        "How much is the tuition fee for ICT?",
+        "What is the payment schedule for tuition?",
+        "Are there additional fees for international students?",
+        "How much is the school fees?",
+        "How do i pay the fees?",
+        "How much is school fees?",
+        "Net Price Calculation",
+        "Housing and Meal Plan",
+        "On Campus Employment"
+        
+      ],
+      "responses": [
+        "For all school fees information please click <a href= 'https://www.lamar.edu/students/paying-for-school/tuition-and-fees.html'>here</a>  "
+      ]
+    },
+    {
+      "tag": "Undergraduate Courses",
+      "patterns": [
+        "What Undergraduate Courses are available?",
+        "can I find the list of undergraduate courses avaiable?",
+        "Undergraduate courses"
+      ],
+      "responses": [
+        "Lamar University offers many under graduate courses. Accounting, Biology, Bio Chemistry, Chemical Engineering, Civil Engineering and many more. You can find the list of Undergrduate courses <a href='https://www.lamar.edu/academics/index.php'>here</a>"
+      ]
+    },
+    {
+      "tag": "Graduate Courses",
+      "patterns": [
+        "What Graduate Courses are available?",
+        "can I find the list of Graduate courses avaiable?",
+        "Graduate courses"
+      ],
+      "responses": [
+        "Lamar University offers many  graduate courses. Accounting, Biology,  Civil Engineering , Computer Science and many more.You can find the list of Graduate courses <a href='https://www.lamar.edu/academics/index.php'>here</a>"
+      ]
+    },
+    {
+      "tag": "On Courses",
+      "patterns": [
+        "What On campus Courses are available?",
+        "can I find the list of On Campus courses avaiable?",
+        "On Campus courses"
+      ],
+      "responses": [
+        "Lamar University offers many On campus courses. Accounting, Biology,  Chemical Engineering  and many more. You can find the list of on campus courses <a href='https://www.lamar.edu/academics/index.php'>here</a>"
+      ]
+    },
+    {
+      "tag": "Online Courses",
+      "patterns": [
+        "What Online campus Courses are available?",
+        "can I find the list of Online Campus courses avaiable?",
+        "Online Campus courses"
+      ],
+      "responses": [
+        "Lamar University offers many online courses.You can find the list of online courses <a href='https://www.lamar.edu/academics/index.php'>here</a>"
       ]
     },
     {
@@ -85,17 +224,17 @@
         "what facilities does the school have?"
       ],
       "responses": [
-        "Facilities at the university include an ICT/Computer Lab, Sports facilites, Library and a Gym."
+        "Facilities at the university include an Computer Lab, Sports facilites, Library and a Gym."
       ]
     },
     {
-      "tag": "campus_information",
+      "tag": "campus_information and accomodation",
       "patterns": [
         "What about campus?",
         "How is campus life?"
       ],
       "responses": [
-        "Campus life is rich in culture. Click <a href= 'https://www.aju.ac.zw/accomodation/'>here</a> for more information"
+        "Campus life is rich in culture. Click <a href= 'https://www.lamar.edu/students/student-engagement/housing-residence-life/index.html'>here</a> for more information"
       ]
     },
     {
@@ -106,7 +245,7 @@
         "Can anybody come?"
       ],
       "responses": [
-        "AJU is open to everyone"
+        "Lamar University is open to everyone"
       ]
     },
     {
@@ -118,7 +257,7 @@
         "How much for accommodation?"
       ],
       "responses": [
-        "View the details of accommodation <a href = https://www.aju.ac.zw/accomodation/>here</a>"
+        "View the details of accommodation <a href = https://www.lamar.edu/students/student-engagement/housing-residence-life/index.html>here</a>"
       ]
     },
     {
@@ -132,39 +271,22 @@
         "where is campus?"
       ],
       "responses": [
-        "The university is located in No. 16 Link Road, P.O Box MP 320 Mount Pleasant, Zimbabwe. View on <a href='https://www.google.com/maps/place/Arrupe+Jesuit/@-17.7761599,31.0558872,17z/data=!3m1!4b1!4m6!3m5!1s0x1931af8ad1f3dc95:0xd7d003b823669882!8m2!3d-17.776165!4d31.0584621!16s%2Fg%2F11bxfv7ccr?entry=ttu'>Maps</a>"
+        "The university is located in 4400 S M L King Jr Pkwy, Beaumont, TX 77705."
       ]
-    },
-    
+    }, 
     {
-      "tag": "courses_information",
+      "tag": "contact_information",
       "patterns": [
-        "What programs does the university offer?",
-        "Tell me about the academic programs at the university.",
-        "What courses do you offer?"
+        "Staff Directory",
+        "Contact Information",
+        "Contact Information for International students",
+        "Building Directory"
       ],
       "responses": [
-        "The university offers a variety of programs including - BA Honors Degree in Philosophy, Masters Degree in Philosophy, Cisco Networking Academy, BSc (Honours) in Information & Communication Technology, BA Honours in Transformational Leadership."
+        "You can contact the Lamar University by clicking here <a href='https://www.lamar.edu/admissions/contact-us.html'>here</a>"
       ]
     },
-    {
-      "tag": "departments_information",
-      "patterns": [
-        "What are the departments in the school?"
-      ],
-      "responses": [
-        "The departments in the school are - SCHOOL OF PHILOSOPHY & HUMANITIES, SCHOOL OF ENGINEERING & ICT, SCHOOL OF EDUCATION & LEADERSHIP, SCHOOL OF HEALTH SCIENCE AND TECHNOLOGY, SCHOOL OF MANAGEMENT AND DEVELOPMENT DEPARTMENT OF LANGUAGES."
-      ]
-    },
-    {
-      "tag": "courses_duration",
-      "patterns": [
-        "How long is the duration of ICT Program?"
-      ],
-      "responses": [
-        "The departments in the school are - SCHOOL OF PHILOSOPHY & HUMANITIES, SCHOOL OF ENGINEERING & ICT, SCHOOL OF EDUCATION & LEADERSHIP, SCHOOL OF HEALTH SCIENCE AND TECHNOLOGY, SCHOOL OF MANAGEMENT AND DEVELOPMENT DEPARTMENT OF LANGUAGES."
-      ]
-    },
+   
     {
       "tag": "general_admissions",
       "patterns": [
@@ -178,73 +300,10 @@
         "How do i register?"
       ],
       "responses": [
-        "You can visit the university's official admissions portal for admission information. Click <a href='https://www.aju.ac.zw/aju-applications/'>here</a> "
+        "You can visit the university's official admissions portal for admission information. Click <a href='https://www.lamar.edu/admissions/contact-us.html'>here</a> "
       ]
     },
-    {
-      "tag": "intl_admissions",
-      "patterns": [
-        "What are the admission requirements for international students?",
-        "What are the admission requirements for foreign students?",
-        "Do you accept foreginers?",
-        "How do foreiners apply?",
-        "Can i apply from a different country?"
-      ],
-      "responses": [
-        "Click on this <a href='https://www.aju.ac.zw/2020/12/31/international-students/'>link</a> to view Admission requirements for international students"
-      ]
-    },
-    {
-      "tag": "fees",
-      "patterns": [
-        "How much is the tuition fee for ICT?",
-        "What is the payment schedule for tuition?",
-        "Are there additional fees for international students?",
-        "How much is the school fees?",
-        "How do i pay the fees?",
-        "How much is school fees?"
-      ],
-      "responses": [
-        "For all school fees information please click <a href= 'https://www.aju.ac.zw/tuition-fees/'>here</a>  "
-      ]
-    },
-    {
-      "tag": "scholarship",
-      "patterns": [
-        "How can i get a scholarship?",
-        "Are scholarships available?",
-        "Are there any scholarships available?",
-        "How do i apply for a scholarship",
-        "How do i get a scholarship?"
-      ],
-      "responses": [
-        "Scholarships are available for eligible students. You can check by clicking <a href='https://www.aju.ac.zw/scholarships/'>here</a>"
-      ]
-    },
-    {
-      "tag": "timetable",
-      "patterns": [
-        "Where can I find the class timetable?",
-        "timetable",
-        "How can I check my course schedule?",
-        "Where is the timetable?"
-      ],
-      "responses": [
-        "The class timetable is available on the JCAM Portal. Login <a href='https://jesuits-africa.education/acis/ais/'>here</a>  "
-      ]
-    },
-    {
-      "tag": "exam_schedule",
-      "patterns": [
-        "When is the exam?",
-        "What date is the exam?",
-        "When is the next exam starting?",
-        "When is the next exam scheduled?"
-      ],
-      "responses": [
-        "Exam schedules are typically posted on the notice board and the student portal. Please check for updates."
-      ]
-    },
+  
     {
       "tag": "feedback",
       "patterns": [
@@ -255,16 +314,188 @@
       ]
     },
     {
-      "tag": "contact_information",
+      "tag": "donate to campus",
       "patterns": [
-        "How can I contact the admissions office?",
-        "How do i call?",
-        "How do i contact?",
-        "What is your contact information"
+        "How can I contribute to the campus fund?",
+        "What options do I have to donate to the university?",
+        "Is there a way I can financially support the entire campus?",
+        "I'm interested in making a donation to the school. How can I do that?",
+        "Can you guide me on how to give back to the university?",
+		"What are the procedures for making a financial contribution to the campus?",
+		"I want to support the overall campus initiatives. How can I donate?",
+		"Are there any programs for alumni to donate to the university?"
       ],
       "responses": [
-        "You can contact the admissions office by email - admissions@aju.ac.zw , or by phone - +263 242 745411"
+        "Click on this <a href='https://www.lamar.edu/forms/advancement/secure-online-giving.html'>link</a> for further details"
       ]
-    }
+    },
+{
+      "tag": "donate to specific department",
+      "patterns": [
+        "How can I donate specifically to the [Department Name]?",
+		"Is there a way to support [Department Name] financially?",
+		"I'd like to make a contribution to the [Department Name]. How do I go about it?",
+		"What are the steps to donate to a particular academic department?",
+		"Can you provide information on donating to the [Department Name] fund?",
+		"I'm interested in supporting a specific department. How can I make a donation?",
+		"How do I contribute financially to the initiatives of the [Department Name]?",
+		"Is there a dedicated fund for [Department Name] that I can contribute to?"
+      ],
+      "responses": [
+        "Click on this <a href='https://www.lamar.edu/giving/index.html'>link</a> for further details"
+      ]
+    },
+	
+{
+      "tag": "freshman application process",
+      "patterns": [
+        "How do high school graduates apply to this university?",
+		"What steps do I need to take for the freshman application?",
+		"Can you provide details about the application process for incoming freshmen?",
+		"I'm a high school senior. What's the procedure for applying as a freshman?",
+		"Where can I find the application form for freshmen?"
+      ],
+      "responses": [
+        "Complete the online application through <a href='https://www.applytexas.org/'>link</a> .Submit your official high school transcript(s): Have your high school send electronically through Trex, Speedy or Escript Mail to our Admissions Office – P.O. Box 10009, Beaumont TX 77710 .Drop it off in-person .Go to <a href='https://www.lamar.edu/admissions/how-to-apply/freshmen/index.html'>link</a> for further details."
+      ]
+    },
+	
+{
+  "tag": "graduate application process",
+  "patterns": [
+    "What are the specific requirements for graduate school applications?",
+    "Can you walk me through the application process for graduate programs?",
+    "I'm interested in pursuing a master's degree. How do I apply?",
+    "Where can I find information on applying to the graduate school?",
+    "What documents are needed for the graduate application?"
+  ],
+  "responses": [
+        "Complete the online application through <a href='https://www.applytexas.org/'>link</a> Submit official transcripts/evaluations for: - The conferred bachelor's or master's degree required for the intended program from a regionally accredited US institution or its equivalent.- The most recent institution of attendance if it differs from the institution of the conferred degree. Submit scores on the GRE or GMAT* Both tests are administered by the LU Career & Testing Center.Use school code 6360 for GRE. Go to <a href='https://www.lamar.edu/admissions/how-to-apply/graduate/how-to-apply.html'>link</a> for further details."
+      ]
+},
+
+{
+  "tag": "international application process",
+  "patterns": [
+    "How does the application process differ for international students?",
+    "What are the additional steps for international applicants?",
+    "Can you guide me on applying to the university as an international student?",
+    "I'm from [Country]. What are the specific requirements for international applicants?",
+    "Where can I get information on visa processes for international students?"
+  ],
+  "responses": [
+        "Complete the online application through <a href='https://www.applytexas.org/'>link</a> - First-time Undergraduate International (Freshman): Submit an evaluation of your foreign high school transcripts.- Undergraduate Transfer International Student: Submit official college transcripts from ALL colleges attended. If you have less than 18 college credit hours, submit an evaluation of your foreign high school transcripts.- New or Transfer Graduate International student: Submit official college transcripts from ALL colleges attended.Go to <a href='https://www.lamar.edu/admissions/how-to-apply/international/index.html'>link</a> for further details."
+      ]
+},
+
+{
+  "tag": "post-degree application process",
+  "patterns": [
+    "I already have a degree. How can I apply for a post-degree program?",
+    "What is the process for individuals seeking post-degree admission?",
+    "Can you provide details about applying for post-degree studies?",
+    "Where can I find information on post-degree application requirements?",
+    "What are the steps for someone with a degree to apply for further studies?"
+  ],
+   "responses": [
+        "Complete the online application through <a href='https://www.applytexas.org/'>link</a> .Post Degree applicants should submit an online U.S. Graduate Application through the statewide Apply Texas system.Students should also have official copies of all prior college and university transcripts sent to Lamar University, regardless of the length of attendance and whether credit was earned.Go to <a href='https://www.lamar.edu/admissions/how-to-apply/post-degree/index.html#:~:text=this%20vaccination%20requirement.-,How%20to%20Apply,and%20whether%20credit%20was%20earned.'>link</a> for further details."
+      ]
+},
+
+{
+  "tag": "online application process",
+  "patterns": [
+    "How do I apply for online programs at the university?",
+    "Can you guide me through the application process for online courses?",
+    "Where can I find the online application form?",
+    "I'm interested in distance learning. What are the steps for the online application?",
+    "What documents are needed for applying to online programs?"
+  ],
+  "responses": [
+		"Go to <a href='https://degree.lamar.edu/home-formtop/'>link</a> for further details."
+      ]
+},
+
+{
+  "tag": "art_and_culture_student_life",
+  "patterns": [
+    "What art and cultural events are happening on campus?",
+    "Tell me about the art and cultural scene at the university.",
+    "Are there any art exhibitions or cultural performances coming up?",
+    "Can you recommend cultural activities for students?"
+  ],
+   "responses": [
+    "Creative minds come alive at LU.Take a look at the latest museum exhibits on campus, attend a lecture event, enjoy a performance at the theatre, or use this handy guide to learn more about all of the public art on campus .Go to <a href='https://www.lamar.edu/public-art/index.html'>link</a> for further details."
+  ]
+},
+
+{
+  "tag": "clubs_and_organizations_student_life",
+  "patterns": [
+    "How can I join clubs and organizations on campus?",
+    "Tell me about the student clubs and organizations available.",
+    "What clubs are there for [specific interest]?",
+    "Give me information about joining student groups."
+  ],
+  "responses": [
+    "With more than 150 registered student clubs and organizations, you'll have plenty of opportunities to meet classmates with similar interests.Choose from a wide variety of intramural sports, fraternities, sororities, academic clubs, and special interest groups to make lifelong friends.Go to <a href='https://www.lamar.edu/students/student-engagement/setzer-student-center/student-organizations/index.html'>link</a> to know more."
+      
+  ]
+},
+
+{
+  "tag": "places_on_campus_student_life",
+  "patterns": [
+    "Can you recommend interesting places to visit on campus?",
+    "Tell me about notable locations around the university.",
+    "Where are the key places on campus?",
+    "What are the popular spots for students?"
+  ],
+  "responses": [
+    "Campus life at Lamar University is the perfect blend of urban living with the close community feel of a small town.Between classes, you can stroll through campus to admire the artwork and mature oak trees.Study with friends at the Mary & John Gray library, or lounge at the Setzer Student Center.Go to <a href='https://www.lamar.edu/admissions/campus-tours/index.html'>link</a> to know more."
+  ]
+  
+},
+
+{
+  "tag": "sports_student_life",
+  "patterns": [
+    "What sports are available for students to participate in?",
+    "Tell me about the university's sports programs.",
+    "Are there upcoming sports events on campus?",
+    "How can I get involved in sports at the university?"
+  ],
+  "responses": [
+    "LU has a healthy option for everyone.Watch the Cardinals compete in 15 sports, get involved in a group fitness class at the gym, or join classmates in a wide variety of intramural teams.Go to <a href='https://www.lamar.edu/student-life/index.html'>link</a> for further details."
+      
+  ]
+},
+
+{
+  "tag": "dining_locations_student_life",
+  "patterns": [
+    "Where can I find dining options on campus?",
+    "Tell me about the dining locations and options available.",
+    "What are the popular dining spots for students?",
+    "Are there any specialty dining places on campus?"
+  ],
+  "responses": [
+    "When it comes to food, LU has something for everyone.Stop by Starbucks in the library for coffee and a bite, or check out any of the restaurants on campus!.Brooks-Shivers Dining Hall Chick-fil-A,Panda Express,Smoothie King,Starbucks,Papa John's Pizza,Tiny House BBQ,Market – Cardinal Village,Market – Setzer Student Center,Market – Brooks-Shivers,Go to <a href='https://www.lamar.edu/student-life/index.html'>link</a> for further details."
+      
+  ]
+},
+
+{
+  "tag": "housing_and_residence_student_life",
+  "patterns": [
+    "How does the university handle housing for students?",
+    "Tell me about on-campus housing options.",
+    "What are the residence facilities like at the university?",
+    "Can you provide information on student housing and accommodations?"
+  ],
+  "responses": [
+    "Living on campus gives you convenience, security, and a sense of community at LU.Choose from multiple floor plans and accommodations in the modern apartment-style residence halls of Cardinal Village.Go to <a href='https://www.lamar.edu/students/student-engagement/housing-residence-life/apply-for-housing.html'>link</a> for further details."
+]
+}
   ]
 }
