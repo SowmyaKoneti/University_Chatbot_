@@ -1,23 +1,21 @@
-# University Enquiry Chatbot
+# University Chatbot
 
 ## Overview
 
-This project aims to develop a chatbot to assist users with queries related to university information. The chatbot utilizes natural language processing (NLP) techniques and a neural network model to understand and respond to user inputs.
+The goal of this project is to create a chatbot that can answer users questions about university. To comprehend and react to user input, the chatbot makes use of neural network modeling and natural language processing (NLP) approaches.
 
 ## Table of Contents
 
-- [System Overview](#system-overview)
+- [Overview](#system-overview)
 - [Development Process](#development-process)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
+- [Introduction](#getting-started)
+- [Utilization](#usage)
 - [Features](#features)
-- [Challenges Faced](#challenges-faced)
-- [Future Enhancements](#future-enhancements)
-- [License](#License)
 
-## System Overview
 
-The system comprises a Flask web application as the front end and a Python-based chatbot backend. The chatbot uses a neural network model trained on a dataset of intents.
+## Overview
+
+The system consists of a Python-based chatbot backend and a Flask web application for the front end. Chatbot uses a neural network model that was trained on a dataset of intents .
 
 ### Technologies Used
 
@@ -28,75 +26,48 @@ The system comprises a Flask web application as the front end and a Python-based
 
 ## Development Process
 
-### 1. Dataset Preparation
+### 1. Preparation of Dataset
 
-The dataset, stored in 'intents.json,' includes various patterns of user queries related to university information. Each intent includes patterns, responses, and a tag.
+The dataset, which is kept in 'intents.json,' contains a variety of query patterns from users pertaining to university data. Every intent has a tag, responses, and patterns.
 
-### 2. Model Training
+### 2. Training Model
 
-The neural network model is trained using the dataset. The training process involves tokenization, stemming, and creating a bag-of-words representation for each pattern.
+The dataset is used to train the neural network model. Tokenization, stemming, and generating a bag-of-words representation for every pattern are steps in the training process.
 
-### 3. Flask App Implementation
+### 3.Implementation of Flask App
 
-The Flask web application provides a user interface for interacting with the chatbot. The frontend includes HTML, CSS, and JavaScript (app.js).
+The user interface for communicating with the chatbot is provided by the Flask web application. The frontend consists of JavaScript (app.js), HTML, and CSS.
 
-### 4. Integration and Testing
+## Introduction
 
-The trained model is integrated into the Flask app, allowing users to input questions and receive responses. Extensive testing is conducted to ensure the chatbot's accuracy and responsiveness.
-
-## Getting Started
-
-To run the chatbot locally, follow these steps:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/oluseyemichael/university-enquiry-chatbot.git
-   ```
-
-2. Install the required dependencies:
+1. Install the required dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Train the model:
+2. Train the model:
 
    ```bash
    python train_model.py
    ```
 
-4. Run the Flask app:
+3. Run the Flask app:
 
    ```bash
    python app.py
    ```
 
-5. Access the chatbot in your browser at [http://localhost:5000](http://localhost:5000).
+4. Access the chatbot in your browser at [http://localhost:5000](http://localhost:5000).
 
-## Usage
+## Utilization
 
-Interact with the chatbot by typing questions related to university information. The chatbot processes the input and generates appropriate responses.
+Type inquiries about university information to communicate with the chatbot. After processing the input, the chatbot produces appropriate responses.
 
 ## Features
 
-- Intent Recognition: The chatbot recognizes user intents and provides relevant responses based on predefined patterns.
-- User Interaction: Users can interact with the chatbot by typing questions.
-
-## Challenges Faced
-
-- Limited dataset size during model training.
-- Fine-tuning hyperparameters for optimal performance.
-- Ensuring seamless communication between the Flask app and the chatbot backend.
-
-## Future Enhancements
-
-1. User Personalization: Implement a user profiling system to personalize responses based on the user's preferences and history.
-2. Database Integration: Explore options for integrating a database to store and retrieve dynamic information.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+- By using predetermined patterns, the chatbot interprets user intents and responds appropriately.
+- By typing inquiries, users can communicate with the chatbot.
 
 ---
 

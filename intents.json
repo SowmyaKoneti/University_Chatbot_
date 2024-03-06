@@ -415,87 +415,82 @@
 		"Go to <a href='https://degree.lamar.edu/home-formtop/'>link</a> for further details."
       ]
 },
-
 {
-  "tag": "art_and_culture_student_life",
-  "patterns": [
-    "What art and cultural events are happening on campus?",
-    "Tell me about the art and cultural scene at the university.",
-    "Are there any art exhibitions or cultural performances coming up?",
-    "Can you recommend cultural activities for students?"
-  ],
-   "responses": [
-    "Creative minds come alive at LU.Take a look at the latest museum exhibits on campus, attend a lecture event, enjoy a performance at the theatre, or use this handy guide to learn more about all of the public art on campus .Go to <a href='https://www.lamar.edu/public-art/index.html'>link</a> for further details."
-  ]
-},
-
-{
-  "tag": "clubs_and_organizations_student_life",
-  "patterns": [
-    "How can I join clubs and organizations on campus?",
-    "Tell me about the student clubs and organizations available.",
-    "What clubs are there for [specific interest]?",
-    "Give me information about joining student groups."
-  ],
-  "responses": [
-    "With more than 150 registered student clubs and organizations, you'll have plenty of opportunities to meet classmates with similar interests.Choose from a wide variety of intramural sports, fraternities, sororities, academic clubs, and special interest groups to make lifelong friends.Go to <a href='https://www.lamar.edu/students/student-engagement/setzer-student-center/student-organizations/index.html'>link</a> to know more."
-      
-  ]
-},
-
-{
-  "tag": "places_on_campus_student_life",
-  "patterns": [
-    "Can you recommend interesting places to visit on campus?",
-    "Tell me about notable locations around the university.",
-    "Where are the key places on campus?",
-    "What are the popular spots for students?"
-  ],
-  "responses": [
-    "Campus life at Lamar University is the perfect blend of urban living with the close community feel of a small town.Between classes, you can stroll through campus to admire the artwork and mature oak trees.Study with friends at the Mary & John Gray library, or lounge at the Setzer Student Center.Go to <a href='https://www.lamar.edu/admissions/campus-tours/index.html'>link</a> to know more."
-  ]
-  
-},
-
-{
-  "tag": "sports_student_life",
-  "patterns": [
-    "What sports are available for students to participate in?",
-    "Tell me about the university's sports programs.",
-    "Are there upcoming sports events on campus?",
-    "How can I get involved in sports at the university?"
-  ],
-  "responses": [
-    "LU has a healthy option for everyone.Watch the Cardinals compete in 15 sports, get involved in a group fitness class at the gym, or join classmates in a wide variety of intramural teams.Go to <a href='https://www.lamar.edu/student-life/index.html'>link</a> for further details."
-      
-  ]
-},
-
-{
-  "tag": "dining_locations_student_life",
-  "patterns": [
-    "Where can I find dining options on campus?",
-    "Tell me about the dining locations and options available.",
-    "What are the popular dining spots for students?",
-    "Are there any specialty dining places on campus?"
-  ],
-  "responses": [
-    "When it comes to food, LU has something for everyone.Stop by Starbucks in the library for coffee and a bite, or check out any of the restaurants on campus!.Brooks-Shivers Dining Hall Chick-fil-A,Panda Express,Smoothie King,Starbucks,Papa John's Pizza,Tiny House BBQ,Market – Cardinal Village,Market – Setzer Student Center,Market – Brooks-Shivers,Go to <a href='https://www.lamar.edu/student-life/index.html'>link</a> for further details."
-      
-  ]
-},
-
-{
-  "tag": "housing_and_residence_student_life",
-  "patterns": [
-    "How does the university handle housing for students?",
-    "Tell me about on-campus housing options.",
-    "What are the residence facilities like at the university?",
-    "Can you provide information on student housing and accommodations?"
-  ],
-  "responses": [
-    "Living on campus gives you convenience, security, and a sense of community at LU.Choose from multiple floor plans and accommodations in the modern apartment-style residence halls of Cardinal Village.Go to <a href='https://www.lamar.edu/students/student-engagement/housing-residence-life/apply-for-housing.html'>link</a> for further details."
-]
-}
+      "tag": "student_life",
+      "subcategories": [
+        {
+          "tag": "art_and_culture_student_life",
+          "patterns": [
+            "What art and cultural events are happening on campus?",
+            "Tell me about the art and cultural scene at the university.",
+            "Are there any art exhibitions or cultural performances coming up?",
+            "Can you recommend cultural activities for students?"
+          ],
+          "responses": [
+            "Creative minds come alive at LU. Take a look at the latest museum exhibits on campus, attend a lecture event, enjoy a performance at the theatre, or use this handy guide to learn more about all of the public art on campus. Go to <a href='https://www.lamar.edu/public-art/index.html'>link</a> for further details."
+          ]
+        },
+        {
+          "tag": "clubs_and_organizations_student_life",
+          "patterns": [
+            "How can I join clubs and organizations on campus?",
+            "Tell me about the student clubs and organizations available.",
+            "What clubs are there for [specific interest]?",
+            "Give me information about joining student groups."
+          ],
+          "responses": [
+            "With more than 150 registered student clubs and organizations, you'll have plenty of opportunities to meet classmates with similar interests. Choose from a wide variety of intramural sports, fraternities, sororities, academic clubs, and special interest groups to make lifelong friends. Go to <a href='https://www.lamar.edu/students/student-engagement/setzer-student-center/student-organizations/index.html'>link</a> to know more."
+          ]
+        },
+        {
+          "tag": "places_on_campus_student_life",
+          "patterns": [
+            "Can you recommend interesting places to visit on campus?",
+            "Tell me about notable locations around the university.",
+            "Where are the key places on campus?",
+            "What are the popular spots for students?"
+          ],
+          "responses": [
+            "Campus life at Lamar University is the perfect blend of urban living with the close community feel of a small town. Between classes, you can stroll through campus to admire the artwork and mature oak trees. Study with friends at the Mary & John Gray library, or lounge at the Setzer Student Center. Go to <a href='https://www.lamar.edu/admissions/campus-tours/index.html'>link</a> to know more."
+          ]
+        },
+        {
+          "tag": "sports_student_life",
+          "patterns": [
+            "What sports are available for students to participate in?",
+            "Tell me about the university's sports programs.",
+            "Are there upcoming sports events on campus?",
+            "How can I get involved in sports at the university?"
+          ],
+          "responses": [
+            "LU has a healthy option for everyone. Watch the Cardinals compete in 15 sports, get involved in a group fitness class at the gym, or join classmates in a wide variety of intramural teams. Go to <a href='https://www.lamar.edu/student-life/index.html'>link</a> for further details."
+          ]
+        },
+        {
+          "tag": "dining_locations_student_life",
+          "patterns": [
+            "Where can I find dining options on campus?",
+            "Tell me about the dining locations and options available.",
+            "What are the popular dining spots for students?",
+            "Are there any specialty dining places on campus?"
+          ],
+          "responses": [
+            "When it comes to food, LU has something for everyone. Stop by Starbucks in the library for coffee and a bite, or check out any of the restaurants on campus! Brooks-Shivers Dining Hall Chick-fil-A, Panda Express, Smoothie King, Starbucks, Papa John's Pizza, Tiny House BBQ, Market – Cardinal Village, Market – Setzer Student Center, Market – Brooks-Shivers. Go to <a href='https://www.lamar.edu/student-life/index.html'>link</a> for further details."
+          ]
+        },
+        {
+          "tag": "housing_and_residence_student_life",
+          "patterns": [
+            "How does the university handle housing for students?",
+            "Tell me about on-campus housing options.",
+            "What are the residence facilities like at the university?",
+            "Can you provide information on student housing and accommodations?"
+          ],
+          "responses": [
+            "Living on campus gives you convenience, security, and a sense of community at LU. Choose from multiple floor plans and accommodations in the modern apartment-style residence halls of Cardinal Village. Go to <a href='https://www.lamar.edu/students/student-engagement/housing-residence-life/apply-for-housing.html'>link</a> for further details."
+          ]
+        }
+      ]
+    }
   ]
 }
