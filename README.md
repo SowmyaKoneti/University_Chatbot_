@@ -15,7 +15,7 @@ The goal of this project is to create a chatbot that can answer users questions
 
 ## Overview
 
-The system consists of a Python-based chatbot backend and a Flask web application for the front end. Chatbot uses a neural network model that was trained on a dataset of intents .
+The system consists of a Python-based chatbot backend and a Flask web application for the front end. Chatbot uses a neural network model that was trained on a dataset of schemas .
 
 ### Technologies Used
 
@@ -28,7 +28,7 @@ The system consists of a Python-based chatbot backend and a Flask web applicatio
 
 ### 1. Preparation of Dataset
 
-The dataset, which is kept in 'intents.json,' contains a variety of query patterns from users pertaining to university data. Every intent has a tag, responses, and patterns.
+The dataset, which is kept in 'schemas.json,' contains a variety of query patterns from users pertaining to university data. Every schema has a tag, responses, and patterns.
 
 ### 2. Training Model
 
@@ -66,7 +66,7 @@ Type inquiries about university information to communicate with the chatbot. Aft
 
 ## Features
 
-- By using predetermined patterns, the chatbot interprets user intents and responds appropriately.
+- By using predetermined patterns, the chatbot interprets user schemas and responds appropriately.
 - By typing inquiries, users can communicate with the chatbot.
 
 ---

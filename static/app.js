@@ -43,8 +43,8 @@ class Chatbox {
             return;
         }
 
-        let msg1 = { name: "User", message: text1 }
-        this.messages.push(msg1);
+        let message_1 = { name: "User", message: text1 }
+        this.messages.push(message_1);
 
         fetch($SCRIPT_ROOT + '/predict', {
             method: 'POST',
@@ -56,8 +56,8 @@ class Chatbox {
           })
           .then(r => r.json())
           .then(r => {
-            let msg2 = { name: "AJU", message: r.answer };
-            this.messages.push(msg2);
+            let message_2 = { name: "LAMAR", message: r.answer };
+            this.messages.push(message_2);
             this.updateChatText(chatbox)
             textField.value = ''
 
@@ -71,7 +71,7 @@ class Chatbox {
     updateChatText(chatbox) {
         var html = '';
         this.messages.slice().reverse().forEach(function(item, index) {
-            if (item.name === "AJU")
+            if (item.name === "LAMAR")
             {
                 html += '<div class="messages__item messages__item--visitor">' + item.message + '</div>'
             }

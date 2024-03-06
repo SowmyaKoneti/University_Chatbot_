@@ -1,5 +1,3 @@
-# app.py
-
 from flask import Flask, render_template, request, jsonify
 from chatbot import get_response
 
@@ -12,7 +10,6 @@ def index_get():
 @app.route("/predict", methods=["POST"])
 def predict():
     text = request.get_json().get("message")
-    # TODO: check if text is valid
     response = get_response(text)
     message = {"answer": response}
     return jsonify(message)
