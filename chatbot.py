@@ -47,7 +47,11 @@ def generate_response(intent):
         if intent_data['tag'] == intent:
             responses = intent_data['responses']
             return random.choice(responses)
-
+        if 'subcategories' in intent_data:
+            for subcategory in intent_data['subcategories']:
+                if subcategory['tag'] == intent:
+                    responses = subcategory['responses']
+                    return random.choice(responses)
     return "I'm not sure how to respond to that."
 
 def get_response(msg):
@@ -56,6 +60,6 @@ def get_response(msg):
     if confidence > 0.75:
         response = generate_response(intent)
     else:
-        response = "I do not understand, may you please rephrase your question."
+        response = "I do not understand, could you please rephrase your question."
 
     return response
