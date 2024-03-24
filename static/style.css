@@ -65,12 +65,16 @@ body {
     flex-direction: column;
     background: #fff; /* Change background color */
     width: 350px;
-    height: 400px; 
+    height: 450px; 
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Update box shadow */
     border-radius: 10px; /* Update border radius */
     opacity: 0;
     transition: all .5s ease-in-out;
     z-index: -123456;
+    position: fixed;
+    bottom: 45px; /* Adjusted to anchor to the bottom */
+    right: 30px;
+    top: auto;
 }
 
 /* CONTENT IS OPEN */
@@ -97,6 +101,32 @@ body {
     border-radius: 50%;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
 }
+
+.button-container {
+    text-align: center; /* Align buttons to the center */
+    margin-bottom: 10px; /* Add some space below the buttons */
+}
+
+/* Style for the buttons */
+.button-container button {
+    background-color: #5698ce; /* Green background color */
+    border: none; /* No border */
+    color: white; /* White text color */
+    padding: 8px 16px; /* Adjust padding around the text */
+    text-align: center; /* Center align text */
+    text-decoration: none; /* No underlining */
+    border-radius: 8px; /* Adjust border radius */
+    display: inline-block; /* Display buttons in line */
+    font-size: 8px; /* Adjust font size */
+    cursor: pointer; /* Show pointer cursor on hover */
+    margin-right: 8px; /* Adjust space between buttons */
+}
+
+/* Style for the buttons on hover */
+.button-container button:hover {
+    background-color: #5a5d7e; /* Darker green color */
+}
+
 
 /* HEADER */
 .chatbox__header {
@@ -140,7 +170,7 @@ body {
     background: #f8f9fa; /* Change message background color */
     color: #000; /* Change message text color */
     padding: 12px 16px;
-    width:fit-content;
+    width:90%;
     border-radius: 10px; /* Update border radius */
 }
 
@@ -149,7 +179,7 @@ body {
     color: #fff; /* Change operator message text color */
     padding: 12px 16px;
     margin-top: 10px;
-    width: fit-content;
+    width: 90%;
     border-radius: 10px; /* Update border radius */
     align-self: flex-end;
 }
@@ -159,7 +189,7 @@ body {
     color: #000; /* Change visitor message text color */
     padding: 12px 16px;
     margin-top: 10px;
-    width: fit-content;
+    width: 90%;
     border-radius: 10px; /* Update border radius */
     align-self: flex-start; 
 }

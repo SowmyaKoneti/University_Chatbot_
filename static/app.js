@@ -23,6 +23,11 @@ class Chatbox {
                 this.onSendButton(chatBox)
             }
         })
+
+        const buttons = document.querySelectorAll('.button-container button');
+        buttons.forEach(button => {
+            button.addEventListener('click', () => this.onButtonClick(button.textContent.trim(), chatBox));
+        });
     }
 
     toggleState(chatbox) {
@@ -34,6 +39,32 @@ class Chatbox {
         } else {
             chatbox.classList.remove('chatbox--active')
         }
+    }
+
+    onButtonClick(question, chatbox) {
+        let message = { name: "User", message: question };
+        this.messages.push(message);
+    
+        fetch($SCRIPT_ROOT + '/predict', {
+            method: 'POST',
+            body: JSON.stringify({ message: question }), // Sending the question to the server
+            mode: 'cors',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+        })
+        .then(response => response.json())
+        .then(data => {
+            let responseMessage = { name: "LAMAR", message: data.answer };
+            this.messages.push(responseMessage);
+            this.updateChatText(chatbox);
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            let errorMessage = { name: "LAMAR", message: "Sorry, an error occurred while fetching the response." };
+            this.messages.push(errorMessage);
+            this.updateChatText(chatbox);
+        });
     }
 
     onSendButton(chatbox) {
@@ -89,3 +120,8 @@ class Chatbox {
 
 const chatbox = new Chatbox();
 chatbox.display();
+
+document.addEventListener('DOMContentLoaded', function() {
+    const chatbox = new Chatbox();
+    chatbox.display();
+});

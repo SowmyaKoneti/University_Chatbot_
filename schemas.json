@@ -70,91 +70,98 @@
       ]
     },
     {
-      "tag": "library",
-      "patterns": [
-        "Is there a library on campus?",
-        "Do you have a library?",
-        "Where is the library?"
-      ],
-      "responses": [
-        "There is a library on campus that houses a vast collection of books. View more library information <a href= 'https://www.lamar.edu/library/index.html'>here</a>."
-      ]
+      "tag": "student_resources",
+           "subcategories": [
+     {
+           "tag": "library",
+           "patterns": [
+             "Is there a library on campus?",
+             "Do you have a library?",
+             "Where is the library?"
+           ],
+           "responses": [
+             "There is a library on campus that houses a vast collection of books. View more library information <a href= 'https://www.lamar.edu/library/index.html'>here</a>."
+           ]
+         },
+         {
+           "tag": "academic_calendar",
+           "patterns": [
+             "What are the important dates on the academic calendar?",
+             "When does the semester start?",
+             "What are the holiday dates?",
+             "Is there a schedule for exams?",
+             "academic calendar"
+           ],
+           "responses": [
+             "The academic calendar provides important dates such as the start of the semester, holiday dates, and exam schedules.You can view the full academic calendar <a href='https://www.lamar.edu/events/academic-calendar-listing.html'>here</a>."
+           ]
+         },
+         {
+           "tag": "BlackBoard(LU Learn)",
+           "patterns": [
+             "What is LU Learn",
+             "Contact information for lamar blackboard"
+            
+           ],
+           "responses": [
+             "LU Learn is a web application that allows faculty to provide students with course materials, class discussions, assignments and assessments online.You can log on to LU Learn and access your class materials anywhere you have an Internet connection.Contact information <a href='https://luonline.blackboard.com/'>here</a>."
+           ]
+         },
+         {
+           "tag": "scholarship",
+           "patterns": [
+             "How can i get a scholarship?",
+             "Are scholarships available?",
+             "Are there any scholarships available?",
+             "How do i apply for a scholarship",
+             "How do i get a scholarship?"
+           ],
+           "responses": [
+             "We are dedicated to helping you achieve your educational goals, and scholarships are one valuable tool to do that. Each year, LU awards more than 2,000 scholarships providing more than $10 million in assistance to students.You can check by clicking <a href='https://www.lamar.edu/financial-aid/scholarships/index.html'>here</a>"
+           ]
+         },
+         {
+           "tag": "Tech Support",
+           "patterns": [
+             "How can i get the Tech Support?",
+             "how to contact Tech Team?",
+             "IT service portal"
+            
+           ],
+           "responses": [
+             "Information technology services and support for the Lamar University community. Email, passwords, wireless access, security and more. For student and IT staff Tech Support click <a href='https://www.lamar.edu/it-services-and-support/index.html'>here</a> Refer to this  <a href='servicedesk@lamar.edu'>email</a>"
+           ]
+         },
+         {
+           "tag": "Course Evaluation",
+           "patterns": [
+             "Give details regarding university assessment?",
+             "Online Course Evaluations",
+             "Core Curriculum Assessment",
+             "Assessment Resources",
+             "National Survey of Student Engagement(NSSE)",
+             "Faculty survey of Student Engagement(FSSE)",
+             "University Institutional Effectiveness Committee(UIEC)"
+           ],
+           "responses": [
+             "Lamar University uses SmartEvals, an online course evaluation software, which provides colleges and universities with instructor and course evaluations.You can check by clicking <a href='https://www.lamar.edu/planning-assessment/assessment/index.html'>here</a> "
+           ]
+         },
+         {
+           "tag": "LU Hub",
+           "patterns": [
+             "What is LU Hub",
+             "LU Hub for Advisors",
+             "Learning Hub details?"
+           ],
+           "responses": [
+             "The campus engagement platform for LU Hub - Powered by CampusGroups.You can login by clicking <a href='https://luhub.lamar.edu/home_login'>here</a>"
+           ]
+     }
+     ]
     },
-    {
-      "tag": "academic_calendar",
-      "patterns": [
-        "What are the important dates on the academic calendar?",
-        "When does the semester start?",
-        "What are the holiday dates?",
-        "Is there a schedule for exams?",
-        "academic calendar"
-      ],
-      "responses": [
-        "The academic calendar provides important dates such as the start of the semester, holiday dates, and exam schedules.You can view the full academic calendar <a href='https://www.lamar.edu/events/academic-calendar-listing.html'>here</a>."
-      ]
-    },
-    {
-      "tag": "BlackBoard(LU Learn)",
-      "patterns": [
-        "What is LU Learn",
-        "Contact information for lamar blackboard"
-       
-      ],
-      "responses": [
-        "LU Learn is a web application that allows faculty to provide students with course materials, class discussions, assignments and assessments online.You can log on to LU Learn and access your class materials anywhere you have an Internet connection.Contact information <a href='https://luonline.blackboard.com/'>here</a>."
-      ]
-    },
-    {
-      "tag": "scholarship",
-      "patterns": [
-        "How can i get a scholarship?",
-        "Are scholarships available?",
-        "Are there any scholarships available?",
-        "How do i apply for a scholarship",
-        "How do i get a scholarship?"
-      ],
-      "responses": [
-        "We are dedicated to helping you achieve your educational goals, and scholarships are one valuable tool to do that. Each year, LU awards more than 2,000 scholarships providing more than $10 million in assistance to students.You can check by clicking <a href='https://www.lamar.edu/financial-aid/scholarships/index.html'>here</a>"
-      ]
-    },
-    {
-      "tag": "Tech Support",
-      "patterns": [
-        "How can i get the Tech Support?",
-        "how to contact Tech Team?",
-        "IT service portal"
-       
-      ],
-      "responses": [
-        "Information technology services and support for the Lamar University community. Email, passwords, wireless access, security and more. For student and IT staff Tech Support click <a href='https://www.lamar.edu/it-services-and-support/index.html'>here</a> Refer to this  <a href='servicedesk@lamar.edu'>email</a>"
-      ]
-    },
-    {
-      "tag": "Course Evaluation",
-      "patterns": [
-        "Give details regarding university assessment?",
-        "Online Course Evaluations",
-        "Core Curriculum Assessment",
-        "Assessment Resources",
-        "National Survey of Student Engagement(NSSE)",
-        "Faculty survey of Student Engagement(FSSE)",
-        "University Institutional Effectiveness Committee(UIEC)"
-      ],
-      "responses": [
-        "Lamar University uses SmartEvals, an online course evaluation software, which provides colleges and universities with instructor and course evaluations.You can check by clicking <a href='https://www.lamar.edu/planning-assessment/assessment/index.html'>here</a> "
-      ]
-    },
-    {
-      "tag": "LU Hub",
-      "patterns": [
-        "What is LU Hub",
-        "LU Hub for Advisors",
-        "Learning Hub details?"
-      ],
-      "responses": [
-        "The campus engagement platform for LU Hub - Powered by CampusGroups.You can login by clicking <a href='https://luhub.lamar.edu/home_login'>here</a>"
-      ]
-    },
+    
+    
     {
       "tag": "Cost and Aid",
       "patterns": [
@@ -173,6 +180,11 @@
         "For all school fees information please click <a href= 'https://www.lamar.edu/students/paying-for-school/tuition-and-fees.html'>here</a>  "
       ]
     },
+    {
+      
+        "tag": "Majors & Programs",
+        "subcategories": [
+  
     {
       "tag": "Undergraduate Courses",
       "patterns": [
@@ -196,7 +208,7 @@
       ]
     },
     {
-      "tag": "On Courses",
+      "tag": "On Campus",
       "patterns": [
         "What On campus Courses are available?",
         "can I find the list of On Campus courses avaiable?",
@@ -205,7 +217,8 @@
       "responses": [
         "Lamar University offers many On campus courses. Accounting, Biology,  Chemical Engineering  and many more. You can find the list of on campus courses <a href='https://www.lamar.edu/academics/index.php'>here</a>"
       ]
-    },
+    }
+  ,
     {
       "tag": "Online Courses",
       "patterns": [
@@ -216,7 +229,9 @@
       "responses": [
         "Lamar University offers many online courses.You can find the list of online courses <a href='https://www.lamar.edu/academics/index.php'>here</a>"
       ]
-    },
+    }
+  ]
+},
     {
       "tag": "facilities",
       "patterns": [
@@ -314,6 +329,10 @@
       ]
     },
     {
+      "tag": "Donate",
+      "subcategories": [
+  
+      {
       "tag": "donate to campus",
       "patterns": [
         "How can I contribute to the campus fund?",
@@ -344,8 +363,14 @@
       "responses": [
         "Click on this <a href='https://www.lamar.edu/giving/index.html'>link</a> for further details"
       ]
-    },
-	
+    }
+  ]
+},
+	{
+
+    "tag": "Application_Process",
+    "subcategories": [
+
 {
       "tag": "freshman application process",
       "patterns": [
@@ -414,7 +439,9 @@
   "responses": [
 		"Go to <a href='https://degree.lamar.edu/home-formtop/'>link</a> for further details."
       ]
-},
+}
+    ]
+  },
 {
       "tag": "student_life",
       "subcategories": [
