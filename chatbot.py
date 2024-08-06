@@ -44,7 +44,7 @@ model.eval()
 # LangChain API keys and initialization
 api_key1 = os.getenv("API_KEY")
 groq_api_key = os.getenv("groq_api_key")
-os.environ["OPENAI_API_KEY"] = "sk-proj-PtvCwFGTPfrwgtDGQWt5T3BlbkFJl3RO912vwXvqr87S0CVt"
+openai_api_key = os.getenv("OPENAI_API_KEY")
 
 # Initialize embeddings
 embeddings1 = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
