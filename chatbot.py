@@ -1,4 +1,5 @@
 import os
+from dotenv import load_dotenv, dotenv_values
 import random
 import json
 import torch
@@ -41,8 +42,8 @@ model.load_state_dict(model_state)
 model.eval()
 
 # LangChain API keys and initialization
-api_key1 = "AIzaSyBD_g1FZAOsyPRQvBGwoGM3uxNB3pq38Es"
-groq_api_key = "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"
+api_key1 = os.getenv("API_KEY")
+groq_api_key = os.getenv("groq_api_key")
 os.environ["OPENAI_API_KEY"] = "sk-proj-PtvCwFGTPfrwgtDGQWt5T3BlbkFJl3RO912vwXvqr87S0CVt"
 
 # Initialize embeddings
