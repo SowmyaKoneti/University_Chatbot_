@@ -46,7 +46,6 @@ api_key1 = os.getenv("API_KEY")
 groq_api_key = os.getenv("groq_api_key")
 openai_api_key = os.getenv("OPENAI_API_KEY")
 
-
 # Initialize embeddings
 embeddings1 = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
